@@ -1,0 +1,37 @@
+{
+  "name": "@pelevesque/is-array-in-array",
+  "version": "0.0.1",
+  "description": "Finds out if an array is in an array.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "scripts": {
+    "test": "standard && mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pelevesque/is-array-in-array.git"
+  },
+  "keywords": [
+    "array",
+    "contain"
+  ],
+  "author": "Pierre-Emmanuel Lévesque <pierre.e.levesque@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pelevesque/is-array-in-array/issues"
+  },
+  "homepage": "https://github.com/pelevesque/is-array-in-array#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.5",
+    "standard": "^11.0.1"
+  }
+}
