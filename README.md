@@ -30,6 +30,6 @@ Finds out if an array is in an array.
 const isArrayInArray = require('@pelevesque/is-array-in-array')
 const arr = [1, 1]
 const arrToCheckIn = [ [1, 0], [1, 1], [1, 2] ]
-const result = isArrayInArray(arr, arrToCheckIn)
+const result = isArrayInArray(arrToCheckIn, arr)
 // result === true
 ```
