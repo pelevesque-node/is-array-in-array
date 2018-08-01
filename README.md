@@ -20,7 +20,7 @@ Finds out if an array is in an array.
 
 `npm test`
 
-### Standard Style & Unit Tests & Coverage
+### Unit Tests & Coverage
 
 `npm run cover`
 
