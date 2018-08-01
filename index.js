@@ -1,4 +1,4 @@
 'use strict'
 
-module.exports = (arr, arrToCheckIn) =>
+module.exports = (arrToCheckIn, arr) =>
   JSON.stringify(arrToCheckIn).indexOf(JSON.stringify(arr)) !== -1
