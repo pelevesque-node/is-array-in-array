@@ -8,7 +8,7 @@ Finds out if an array is in an array.
 
 ## Node Repository
 
-[https://www.npmjs.com/package/@pelevesque/is-array-in-array](https://www.npmjs.com/package/@pelevesque/is-array-in-array)
+https://www.npmjs.com/package/@pelevesque/is-array-in-array
 
 ## Installation
 
