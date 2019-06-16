@@ -4,7 +4,7 @@
 const expect = require('chai').expect
 const isArrayInArray = require('../index')
 
-describe('#is-array-in-array()', () => {
+describe('#isArrayInArray()', () => {
   it('should return true if array is in array', () => {
     const array = [0, 1]
     const arrayToCheckIn = [ [0, 1], [1, 2], [2, 3] ]
