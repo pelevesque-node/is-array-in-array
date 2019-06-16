@@ -31,8 +31,8 @@ const isArrayInArray = require('@pelevesque/is-array-in-array')
 ```
 
 ```js
-const arr = [1, 1]
-const arrToCheckIn = [ [1, 0], [1, 1], [1, 2] ]
-const result = isArrayInArray(arrToCheckIn, arr)
+const array = [1, 1]
+const arrayToCheckIn = [ [1, 0], [1, 1], [1, 2] ]
+const result = isArrayInArray(array, arayToCheckIn)
 // result === true
 ```

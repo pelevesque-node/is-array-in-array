@@ -8,7 +8,7 @@ describe('#isArrayInArray()', () => {
   it('should return true if array is in array', () => {
     const array = [0, 1]
     const arrayToCheckIn = [ [0, 1], [1, 2], [2, 3] ]
-    const result = isArrayInArray(arrayToCheckIn, array)
+    const result = isArrayInArray(array, arrayToCheckIn)
     const expected = true
     expect(result).to.equal(expected)
   })
@@ -16,7 +16,7 @@ describe('#isArrayInArray()', () => {
   it('should return false if array is not in array', () => {
     const array = [1, 1]
     const arrayToCheckIn = [ [0, 1], [1, 2], [2, 3] ]
-    const result = isArrayInArray(arrayToCheckIn, array)
+    const result = isArrayInArray(array, arrayToCheckIn)
     const expected = false
     expect(result).to.equal(expected)
   })
