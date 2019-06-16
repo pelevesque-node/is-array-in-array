@@ -4,7 +4,7 @@
 
 # is-array-in-array
 
-Finds out if an array is in an array.
+Checks if an array is in an array.
 
 ## Node Repository
 

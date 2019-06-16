@@ -1,7 +1,7 @@
 {
   "name": "@pelevesque/is-array-in-array",
   "version": "0.0.3",
-  "description": "Finds out if an array is in an array.",
+  "description": "Checks if an array is in an array.",
   "main": "index.js",
   "engines": {
     "node": ">=6.4.0"
